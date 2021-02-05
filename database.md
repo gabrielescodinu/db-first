@@ -5,7 +5,7 @@ Strutturate il file come fatto oggi in classe.  Specificate: il nome del databas
 # database name : Libreria
 # nome tabelle : Videogiochi
 
-- id BIGINT PRIMARYKEY NOTNULL AUTO_INCREMENT UNIQUE
+- id INT PRIMARYKEY AUTO_INCREMENT
 - title string VARCHAR(50) NOTNULL
 - description string TEXT NULL
 - publisher VARCHAR (30) NOTNULL
@@ -16,3 +16,7 @@ Strutturate il file come fatto oggi in classe.  Specificate: il nome del databas
 - availability number TINYINT NULL DEFAULT (0)
 - img_cover string VARCHAR() NULL
 - language string VARCHAR(20) NOTNULL
+
+<!-- Istruzioni:
+Provare a strutturare il seguente database che modellizza un hotel: Ci sono varie stanze, ognuna con le proprie caratteristiche. Le diverse stanze vengono prenotate per periodi di tempo, da ospiti. Ad ogni prenotazione devono essere associati tutti gli ospiti della stanza.
+Nella repo mettete sia il file del diagramma che il file esportato come immagine. -->
